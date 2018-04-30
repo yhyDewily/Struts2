@@ -8,6 +8,7 @@
     <package name="login" extends="struts-default">
         <action name="LoginAction" method="login" class="com.tutorialspoint.struts2.LoginAction">
             <result>/success.jsp</result>
+            <result name="input">/login.jsp</result>
         </action>
     </package>
 </struts>
